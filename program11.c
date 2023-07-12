@@ -2,9 +2,7 @@
 
 #include<stdio.h>
 
-// Example of Iteration
-
-int main()
+void Display()
 {
     int iCnt = 0;
     //      1          2        3
@@ -12,6 +10,11 @@ int main()
     {
         printf("Jay Ganesh...\n");      // 4
     }
+}
 
+int main()
+{
+    Display();
+    
     return 0;
 }
